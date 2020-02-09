@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
     <div class="title m-b-md">
-        Servicios
+        @lang('view.servicios')
     </div>
 @endsection

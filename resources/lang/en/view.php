@@ -13,7 +13,9 @@ return [
     |
     */
 
-    'previous' => '&laquo; Previous',
-    'next' => 'Next &raquo;',
-
+    'cristian' => 'Cristian heteron\'t',
+    'galeria' => 'Gallery',
+    'servicios' => 'Services',
+    'inicio' => 'Index',
+    'contacto' => 'Contact'
 ];

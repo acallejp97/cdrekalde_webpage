@@ -1,4 +1,4 @@
-<p align="center"><img src="./public/images/logo.png" width="400"></p>
+<p align="center"><img src="./resources/images/logo.png" width="400"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -9,10 +9,10 @@
 
 ## Instalacion y despliegue
 Requisitos:
-    *Composer
-    *npm
-    *php7.4
-    *apache
+* Composer
+* npm
+* php7.4
+* Apache2
 
 Como desplegar:
 Instalamos las dependencias.

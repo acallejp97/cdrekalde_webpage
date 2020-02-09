@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
     <div class="title m-b-md">
-        Cristian marica
+        @lang('view.cristian')
     </div>
 @endsection

@@ -7,6 +7,28 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Instalacion y despliegue
+Requisitos:
+    *Composer
+    *npm
+    *php7.4
+    *apache
+
+Como desplegar:
+Instalamos las dependencias.
+Una vez en la carpeta del proyecto "cdrekalde_webpage/" hacemos 
+composer install 
+npm install
+hacemos una copia de .env.example y renombramos la que queramos a .env solamente
+
+Habilitamos el que el apache lea la carpeta
+Y si no funcionan las redirecciones hacemos lo siguiente: 
+
+La primera respuesta y la respuesta verificada son validas para probar.
+
+https://stackoverflow.com/questions/22757749/laravel-redirects-to-a-route-but-then-apache-gives-404-error
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

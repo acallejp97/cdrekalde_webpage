@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Auth::routes();
+
+
+    Route::get('/', "Controller@inicio")->name('inicio');
+
+    Route::get('/contacto', "Controller@contacto")->name('contacto');
+
+    Route::get('/galeria', "Controller@galeria")->name('galeria');
+
+    Route::get('/servicios', "Controller@servicios")->name('servicios');

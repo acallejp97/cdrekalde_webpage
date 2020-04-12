@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ App::getLocale() }}">
+<html lang="{{ App::getLocale()}}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -92,6 +92,5 @@
                     <a href="{{ route('contacto') }}">@lang('header.contacto')</a>
                 </div>
             </div>
-        </div>
     </body>
 </html>

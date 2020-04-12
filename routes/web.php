@@ -9,21 +9,18 @@
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
-    // Auth::routes();
-    
-    //IDIOMA CAMBIOS
-    Route::get('lang/{lang}', function($lang) {
-        \Session::put('lang', $lang);
-        return \Redirect::back();
-      })->middleware('web')->name('change_lang');
-    
-    Route::get('/', "Controller@inicio")->name('inicio');
+//IDIOMA CAMBIOS
+Route::get('lang/{lang}', function ($lang) {
+    \Session::put('lang', $lang);
+    return \Redirect::back();
+})->middleware('web')->name('change_lang');
 
-    Route::get('/contacto', "Controller@contacto")->name('contacto');
+Route::get('/', "Controller@inicio")->name('inicio');
 
-    Route::get('/galeria', "Controller@galeria")->name('galeria');
+Route::get('/contacto', "Controller@contacto")->name('contacto');
 
-    Route::get('/servicios', "Controller@servicios")->name('servicios');
+Route::get('/galeria', "Controller@galeria")->name('galeria');
 
+Route::get('/servicios', "Controller@servicios")->name('servicios');

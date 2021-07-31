@@ -13,7 +13,6 @@ return [
     |
     */
 
-    'cristian' => 'Cristian gizon-maitalea',
     'galeria' => 'Galeria',
     'servicios' => 'Zerbitzuak',
     'inicio' => 'Hasiera',

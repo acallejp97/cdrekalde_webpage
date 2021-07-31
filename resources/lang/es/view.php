@@ -13,7 +13,6 @@ return [
     |
     */
 
-    'cristian' => 'Cristian Marica',
     'galeria' => 'Galeria',
     'servicios' => 'Servicios',
     'inicio' => 'Inicio',

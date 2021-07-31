@@ -13,7 +13,6 @@ return [
     |
     */
 
-    'cristian' => 'Cristian heteron\'t',
     'galeria' => 'Gallery',
     'servicios' => 'Services',
     'inicio' => 'Index',

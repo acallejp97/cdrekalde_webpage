@@ -11,7 +11,7 @@
 Requisitos:
 * Composer
 * npm
-* php7.4
+* php8.0
 * Apache2
 
 Como desplegar:

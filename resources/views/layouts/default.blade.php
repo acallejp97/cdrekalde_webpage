@@ -64,9 +64,13 @@
                 margin-bottom: 30px;
             }
         </style>
+
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <script src="{{ asset('js/app.js') }}"></script>
+        
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class="flex-center position-ref full-height container">
             <div>
                 <li style="display:inline-flex; float:right; margin-right:2em;">
                     <a href="{{ route('change_lang', ['lang' => 'es']) }}"> <img src='{{ asset('/images/idiomas/castellano.png') }}' class='img-responsive ' style='margin-right: 6px; margin-top:0.2em; height:29px; width: 30px;' /></a>

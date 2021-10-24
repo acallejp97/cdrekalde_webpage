@@ -10002,10 +10002,9 @@ h3 {
     border-color: #dee2e6;
   }
 }
-
 #video-intro {
   max-height: 40vh;
   min-height: 100%;
   background-color: #ffffff;
-  background-image: url(../images/posiciones-karate.jpg);
+  background-image: url(/../images/posiciones-karate.jpg);
 }

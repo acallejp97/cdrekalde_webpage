@@ -12,27 +12,10 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    public function inicio()
+    public function index()
     {
-        return view("pages/inicio");
+        return view("pages/index");
 
     }
 
-    public function galeria()
-    {
-        return view("pages/galeria");
-
-    }
-
-    public function servicios()
-    {
-        return view("pages/servicios");
-
-    }
-
-    public function contacto()
-    {
-        return view("pages/contacto");
-
-    }
 }

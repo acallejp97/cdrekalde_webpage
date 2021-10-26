@@ -13,8 +13,5 @@ return [
     |
     */
 
-    'galeria' => 'Galeria',
-    'servicios' => 'Servicios',
-    'inicio' => 'Inicio',
-    'contacto' => 'Contacto',
+    'index' => 'Inicio',
 ];

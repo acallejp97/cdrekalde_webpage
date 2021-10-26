@@ -13,5 +13,7 @@ return [
     |
     */
 
-    'index' => 'Inicio',
+    'home' => 'Inicio',
+    'redesSociales'=> 'Nuestras Redes Sociales'
+
 ];

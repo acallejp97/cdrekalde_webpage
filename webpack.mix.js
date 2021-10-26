@@ -11,6 +11,10 @@ const mix = require('laravel-mix');
  |
  */
 
+ 
+mix.setPublicPath('public');
+mix.setResourceRoot('../');
+
 mix.js('resources/js/app.js', 'public/js')
     .copy('resources/assets/images', 'public/images', false)
     .copy('resources/assets/videos', 'public/videos', false)

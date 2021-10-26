@@ -4,6 +4,13 @@
 @import 'variables';
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+//FontAwesome
+@import "~@fortawesome/fontawesome-free/css/all";
+
+
+@import 'footer';
+
+
 // INTRO
 #video-intro {
     max-height: 40vh;

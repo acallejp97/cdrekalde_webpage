@@ -12,7 +12,6 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-        <script src="{{ asset('js/app.js') }}"></script>
 
     </head>
     <body>
@@ -23,4 +22,5 @@
         @extends('sections.videoImage')
         @extends('layouts.header')
     </body>
+            <script src="{{ asset('js/app.js') }}"></script>
 </html>

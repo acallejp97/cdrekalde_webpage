@@ -13,8 +13,7 @@ return [
     |
     */
 
-    'galeria' => 'Gallery',
-    'servicios' => 'Services',
-    'inicio' => 'Index',
-    'contacto' => 'Contact'
+    'home' => 'Hasiera',
+    'redesSociales'=> 'Gure Sare Sozialak'
+
 ];

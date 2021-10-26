@@ -6,13 +6,8 @@
             <a href="{{ route('change_lang', ['lang' => 'eu']) }}"><img src='{{ asset('images/idiomas/euskera.png') }}' class='img-responsive' style=' margin-right: 6px; height:35px; width: 30px;' /></a>
         </li>
     </div>
-    <main>
-    @yield('content')
-        <script src="{{ asset('js/app.js') }}" defer></script>
-
-    </main>
 
     <div class="links">
-        <a href="{{ route('index') }}">@lang('header.index')</a>
+        <a href="{{ route('index') }}">@lang('lang.home')</a>
     </div>
 </div>

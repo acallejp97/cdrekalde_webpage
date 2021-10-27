@@ -14,9 +14,22 @@ class Controller extends BaseController
 
     public function index()
     {
-        return view("index")
-            ->with('title', 'Home');
+        return view("index", ['titulo' => 'home']);
+    }
 
+    public function karate()
+    {
+        return view("index", ['titulo' => 'karate']);
+    }
+
+    public function aikido()
+    {
+        return view("index", ['titulo' => 'aikido']);
+    }
+
+    public function kickboxing()
+    {
+        return view("index", ['titulo' => 'kickboxing']);
     }
 
 }

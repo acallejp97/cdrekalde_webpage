@@ -8,6 +8,6 @@
     </div>
 
     <div class="links">
-        <a href="{{ route('index') }}">@lang('lang.home')</a>
+        <a href="{{ route('index') }}">@lang('lang.'.$titulo)</a>
     </div>
 </div>

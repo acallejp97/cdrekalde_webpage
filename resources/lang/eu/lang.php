@@ -14,6 +14,9 @@ return [
     */
 
     'home' => 'Hasiera',
+    'karate' => 'Karate',
+    'aikido' => 'Aikido',
+    'kickboxing' => 'Kick Boxing',
     'redesSociales'=> 'Gure Sare Sozialak'
 
 ];

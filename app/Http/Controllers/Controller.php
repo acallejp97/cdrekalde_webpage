@@ -14,7 +14,8 @@ class Controller extends BaseController
 
     public function index()
     {
-        return view("pages/index");
+        return view("index")
+            ->with('title', 'Home');
 
     }
 

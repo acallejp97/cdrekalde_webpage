@@ -16338,7 +16338,7 @@ tbody tr td {
   border: 0;
   outline: 0;
   width: 100px;
-  heigth: 100px;
+  height: 100px;
   background: white;
   color: transparent;
   display: block;
@@ -16349,7 +16349,7 @@ tbody tr td {
   border: 0;
   outline: 0;
   width: 100%;
-  heigth: 100%;
+  height: 100%;
   background: red;
   color: transparent;
   display: inline-block;

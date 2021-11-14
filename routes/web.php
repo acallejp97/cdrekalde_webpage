@@ -21,3 +21,5 @@ Route::get('/', "Controller@index")->name('index');
 Route::get('/karate', "Controller@karate")->name('karate');
 Route::get('/kickboxing', "Controller@kickboxing")->name('kickboxing');
 Route::get('/aikido', "Controller@aikido")->name('aikido');
+Route::get('/pilates', "Controller@pilates")->name('pilates');
+Route::get('/espaldasana', "Controller@espaldasana")->name('espaldasana');

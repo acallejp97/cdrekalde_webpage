@@ -1,11 +1,12 @@
 <section class="container-fluid sec-footer">
-    <div class="container">
+    <div>
         <div class="row">
             <div class="col">
-                
                 <img src="{{asset('images/logo.png')}}" alt="logo" style="width:300px;heigth:40px;" class="mb-3">
             </div>
-            
+            <div class="col">
+                <img src="{{asset('images/entrada.png')}}" alt="logo" style="width:300px;heigth:40px;" class="mb-3">
+            </div>
             <div class="col">
                 <div class="card desc-box">
                     <div class="card-body">

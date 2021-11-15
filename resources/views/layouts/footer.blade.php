@@ -1,11 +1,12 @@
 <section class="container-fluid sec-footer">
-    <div class="container">
+    <div>
         <div class="row">
             <div class="col">
-                
                 <img src="{{asset('images/logo.png')}}" alt="logo" style="width:300px;heigth:40px;" class="mb-3">
             </div>
-            
+            <div class="col">
+                <img src="{{asset('images/entrada.png')}}" alt="logo" style="width:300px;heigth:40px;" class="mb-3">
+            </div>
             <div class="col">
                 <div class="card desc-box">
                     <div class="card-body">
@@ -38,6 +39,13 @@
                 <a href="https://www.facebook.com/clubdeportivorekalde" class="snip1472"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.instagram.com/clubdeportivorekalde" class="snip1472"><i class="fab fa-instagram"></i></a>
                 <a href="#" class="snip1472"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="">
+        <div class="container">
+            <div class="row">
+                    <p>Created with <i class="fas fa-heart"></i> by <a href="https://www.linkedin.com/in/cristian-bod%C3%B3n-mari%C3%B1o-3a248b176/">Cristian Bodón</a> & <a href="https://www.linkedin.com/in/asiercallejo/">Asier Callejo</a></p>
             </div>
         </div>
     </div>

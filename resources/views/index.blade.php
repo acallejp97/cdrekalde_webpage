@@ -19,6 +19,7 @@
     </head>
     <body>
         @extends('layouts.footer')
+        @extends('layouts.sponsors')
         @extends('sections.calendar')
         @extends('sections.activityDescription')
         @extends('sections.circles')

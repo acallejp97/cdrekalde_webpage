@@ -9,7 +9,7 @@
 );
 @endphp
 
-<div class="calendar">
+<div id="calendar" class="calendar">
     <header>
         <div style="align-self: flex-start; flex: 0 0 1"></div>
         <div class="calendar__title" style="display: flex; justify-content: center; align-items: center">

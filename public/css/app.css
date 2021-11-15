@@ -16353,57 +16353,40 @@ img {
 }
 
 #circle-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
   padding: 10px 20px;
-  background: linear-gradient(#333, #222222);
+}
+#circle-section .item {
+  margin: auto;
 }
 
 .button-image {
   display: block;
   position: relative;
-  width: 14rem;
-  height: 14rem;
-  max-width: 100%;
-  max-height: 100%;
+  width: 1000px;
+  height: 1000px;
+  max-width: 300px;
+  max-height: 300px;
   cursor: pointer;
-  background-size: 120%;
   border-radius: 50%;
-  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  text-align: center;
   box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.75);
   margin: 40px auto;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.button-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .button-image:hover {
   box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.75);
-  background-position: 0% 50%;
-}
-.button-image:hover .text {
-  transform: rotate(-45deg) translate(0px) rotate(-315deg);
-  background: rgba(66, 166, 192, 0.5);
-  width: 14rem;
-  letter-spacing: 0.3rem;
-  line-height: 14rem;
-  height: 14rem;
-  margin-top: -7rem;
-  margin-left: -7rem;
-  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
-}
-.button-image .text {
-  display: block;
-  position: absolute;
-  width: 7rem;
-  height: 7rem;
-  line-height: 7rem;
-  left: 50%;
-  top: 50%;
-  margin-top: -3.5rem;
-  margin-left: -3.5rem;
-  font-size: 1rem;
-  text-align: center;
-  color: #fff;
-  border-radius: 50%;
-  background: #42a6c0;
-  transform: rotate(-180deg) translate(-50%) rotate(180deg);
-  box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);
-  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.4s;
 }
 
 @media (max-width: 1275px) {

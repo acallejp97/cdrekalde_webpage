@@ -13,6 +13,10 @@ return [
     |
     */
 
+    'activities' => 'Actividades',
+    'description' => 'Descripcion',
+    'schedules' => 'Horarios',
+
     'home' => 'Inicio',
     'karate' => 'Karate',
     'karate-infantil' => 'Karate Infantil',

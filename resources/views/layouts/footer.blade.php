@@ -37,16 +37,14 @@
             <div class="col text-center">
                 <div class="card-title">@lang('lang.redesSociales')</div>
                 <a href="https://www.facebook.com/clubdeportivorekalde" class="snip1472"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/clubdeportivorekalde" class="snip1472"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="snip1472"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/clubdeportivorekalde/" class="snip1472"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/message/TGENR2VK625VF1" class="snip1472"><i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
     </div>
-    <div class="">
-        <div class="container">
-            <div class="row">
-                    <p>Created with <i class="fas fa-heart"></i> by <a href="https://www.linkedin.com/in/cristian-bod%C3%B3n-mari%C3%B1o-3a248b176/">Cristian Bodón</a> & <a href="https://www.linkedin.com/in/asiercallejo/">Asier Callejo</a></p>
-            </div>
+    <div class="container">
+        <div class="text-center">
+            <p id="created-text">Created with <i id="heart" class="fas fa-heart text-danger"></i> by <a href="https://www.linkedin.com/in/cristian-bod%C3%B3n-mari%C3%B1o-3a248b176/">Cristian Bodón</a> & <a href="https://www.linkedin.com/in/asiercallejo/">Asier Callejo</a></p>
         </div>
     </div>
 </section>

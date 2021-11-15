@@ -12,6 +12,9 @@ return [
     | you want to customize your views to better match your application.
     |
     */
+    'activities' => 'Activites',
+    'description' => 'Description',
+    'schedules' => 'Schedules',
 
     'home' => 'Home',
     'karate' => 'Karate',

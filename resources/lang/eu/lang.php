@@ -13,6 +13,10 @@ return [
     |
     */
 
+    'activities' => 'Aktibitateak',
+    'description' => 'Dezkripzioa',
+    'schedules' => 'Ordutegia',
+
     'home' => 'Hasiera',
     'karate' => 'Karate',
     'karate-infantil' => 'Haur Karate',

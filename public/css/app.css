@@ -16276,11 +16276,13 @@ readers do not read off random characters that represent icons */
 }
 
 .calendar {
-  margin: 0 auto;
-  max-width: 1280px;
-  min-width: 500px;
+  margin: 20px auto;
+  max-width: 100%;
+  width: 1280px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.2), 0px 3px 7px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  overflow: hidden;
 }
 
 .wrap {
@@ -16358,7 +16360,8 @@ thead {
   border-bottom: 2px solid #ddd;
 }
 
-tr, tr td {
+tr,
+tr td {
   height: 20px;
 }
 
@@ -16449,19 +16452,19 @@ tbody tr td {
 }
 
 /**
-thead {
-    tr {
-      display: block;
-      position: relative;
+  thead {
+      tr {
+        display: block;
+        position: relative;
+      }
     }
-  }
-tbody {
-    display: block;
-    overflow: auto;
-    width: 800px;
-    height: 100%;
-  }
-*/
+  tbody {
+      display: block;
+      overflow: auto;
+      width: 800px;
+      height: 100%;
+    }
+  */
 button.secondary {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: white;
@@ -16506,6 +16509,11 @@ button.secondary:focus {
 
 .icon:hover {
   color: red;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
 }
 
 #video-intro {
@@ -16612,12 +16620,20 @@ nav .menu-btn i {
 
 html,
 body {
+  scroll-behavior: smooth;
   background-color: #fff;
   color: #636b6f;
   font-family: "Nunito", sans-serif;
   font-weight: 200;
   height: 100vh;
   margin: 0;
+}
+
+:target:before {
+  content: "";
+  display: block;
+  height: 1000px;
+  margin: -1000px 0 0;
 }
 
 body {
@@ -16639,24 +16655,6 @@ img {
   position: relative;
 }
 
-.title {
-  font-size: 84px;
-}
-
-.links > a {
-  color: #636b6f;
-  padding: 0 25px;
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.m-b-md {
-  margin-bottom: 30px;
-}
-
 #circle-section {
   display: flex;
   flex-wrap: wrap;
@@ -16665,7 +16663,12 @@ img {
   padding: 10px 20px;
 }
 #circle-section .item {
+  padding: 5px;
   margin: auto;
+}
+#circle-section h2 {
+  font-size: 1.2rem;
+  color: #000000;
 }
 
 .button-image {
@@ -16673,8 +16676,8 @@ img {
   position: relative;
   width: 1000px;
   height: 1000px;
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 250px;
+  max-height: 250px;
   cursor: pointer;
   border-radius: 50%;
   text-align: center;

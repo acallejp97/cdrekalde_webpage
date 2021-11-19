@@ -26,5 +26,17 @@
         @extends('sections.videoImage')
         @extends('layouts.header')
     </body>
+    <script>
+    function scrollToTargetAdjusted() {
+    var element = document.getElementById('targetElement');
+    var headerOffset = 89;
+    var elementPosition = element.getBoundingClientRect().top;
+    var offsetPosition = elementPosition - headerOffset;
+
+    window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+    });
+}</script>
             <script src="{{ asset('js/app.js') }}"></script>
 </html>

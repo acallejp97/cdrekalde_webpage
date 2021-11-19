@@ -9,6 +9,11 @@
 @import 'footer';
 @import 'calendar';
 // INTRO
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
 #video-intro {
     position: relative;
     height: 80vh;
@@ -121,12 +126,20 @@ nav .menu-btn i {
 // GENERAL
 html,
 body {
+    scroll-behavior: smooth;
     background-color: #fff;
     color: #636b6f;
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
     height: 100vh;
     margin: 0;
+}
+
+:target:before {
+    content: "";
+    display: block;
+    height: 1000px;
+    margin: -1000px 0 0;
 }
 
 body {
@@ -148,24 +161,6 @@ img {
     position: relative;
 }
 
-.title {
-    font-size: 84px;
-}
-
-.links>a {
-    color: #636b6f;
-    padding: 0 25px;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: .1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.m-b-md {
-    margin-bottom: 30px;
-}
-
 // CIRCLE BUTTONS
 #circle-section {
     display: flex;
@@ -174,7 +169,12 @@ img {
     justify-content: center;
     padding: 10px 20px;
     .item {
+        padding: 5px;
         margin: auto;
+    }
+    h2 {
+        font-size: 1.2rem;
+        color: #000000;
     }
 }
 
@@ -183,8 +183,8 @@ img {
     position: relative;
     width: 1000px;
     height: 1000px;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 250px;
+    max-height: 250px;
     cursor: pointer;
     border-radius: 50%;
     text-align: center;

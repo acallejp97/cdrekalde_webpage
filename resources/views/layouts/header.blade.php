@@ -7,10 +7,10 @@
         <i class="fas fa-bars"></i>
     </label>
     <ul>
-        <li><a onclick="scrollToTargetAdjusted();" href="#video-intro" class="active" >@lang('lang.'.$titulo)</a></li>
-        <li><a onclick="scrollToTargetAdjusted();" href="#circle-section">@lang('lang.activities')</a></li>
-        <li><a onclick="scrollToTargetAdjusted();" href="#description">@lang('lang.description')</a></li>
-        <li><a onclick="scrollToTargetAdjusted();" href="#calendar">@lang('lang.schedules')</a></li>
+        <li><a href="#home" class="active" >@lang('lang.'.$titulo)</a></li>
+        <li><a href="#circle-section">@lang('lang.activities')</a></li>
+        <li><a href="#description">@lang('lang.description')</a></li>
+        <li><a href="#calendar">@lang('lang.schedules')</a></li>
         <li class="lang">
             @if (App::getLocale() != 'es')
                 <a href="{{ route('change_lang', ['lang' => 'es']) }}"> <img src='{{ asset('images/idiomas/castellano.png') }}' /></a>

@@ -14,10 +14,15 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/css/owl.carousel.min.css') }}" rel="stylesheet">
+		<link href="{{ asset('css/css/owl.theme.default.min.css') }}" rel="stylesheet">
 
+		<link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
     <body id="home">
+    	<div class="loader">
+    		<img src="{{ URL::asset('images/logo.png') }}" class="bounce">
+    	</div>
         @extends('layouts.footer')
         @extends('layouts.sponsors')
         @extends('sections.calendar')

@@ -1,5 +1,5 @@
 .sec-footer {
-    background: #433d7b;
+    background: #38ACCB;
     color: #fff;
     padding-top: 2.5rem;
     padding-bottom: 1rem;
@@ -82,6 +82,10 @@
 #created-text {
     margin-top: 1rem;
     margin-bottom: 0;
+	font-weight: bold;
+	a, a:focus {
+		color: #bb0b0d;
+	}
 }
 
 #heart:hover {

@@ -1,5 +1,6 @@
-    <div id="description" class="text-center mb-3">
-        <h2>
+    <div id="description" class="text-center mb-3 container-fluid">
+    <h1>@lang('lang.'.$titulo)</h1>
+    <p>
         @if($titulo !== 'karate')
             @lang('lang.description-'.$titulo)
         @else
@@ -7,6 +8,20 @@
             <br/>
             @lang('lang.description-'.$titulo.'-infantil')
         @endif
-    </h2>
-    <img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
-    </div>
+    </p>
+        <div class="row">
+            <div class="col-lg-6">
+    			<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
+    		</div>
+            <div class="col-lg-6">
+    			<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
+    		</div>
+            <div class="col-lg-6">
+    			<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
+    		</div>
+            <div class="col-lg-6">
+    			<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
+    		</div>
+		</div>
+	</div>
+

@@ -1,6 +1,6 @@
 <nav>
     <div class="logo" >
-        <a href="{{ route('index') }}"><img src="{{ URL::asset('images/logo.png') }}"></a>
+        <a href="{{ route('index') }}"><img src="{{ URL::asset('images/logos/logo.png') }}"></a>
     </div>
     <input type="checkbox" id="click">
     <label for="click" class="menu-btn">

@@ -21,7 +21,7 @@
     </head>
     <body id="home">
     	<div class="loader">
-    		<img src="{{ URL::asset('images/logo.png') }}" class="bounce">
+    		<img src="{{ URL::asset('images/logos/logo.png') }}" class="bounce">
     	</div>
         @extends('layouts.footer')
         @extends('layouts.sponsors')

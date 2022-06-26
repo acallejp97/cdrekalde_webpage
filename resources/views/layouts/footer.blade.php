@@ -1,7 +1,6 @@
 <section class="container-fluid sec-footer">
-    <div>
         <div class="row">
-            <div class="col-lg-4 offset-4">
+            <div class="col-lg-4 offset-lg-4">
                 <div class="card desc-box">
                     <div class="card-body">
                         <div class="card-title">Club Deportivo Rekalde</div>
@@ -36,7 +35,6 @@
                 </div>
             </div>
         </div>
-    </div>
     <div class="container">
         <div class="text-center">
             <p id="created-text">Created with <i id="heart" class="fas fa-heart text-danger"></i> by <a href="https://www.linkedin.com/in/cristian-bod%C3%B3n-mari%C3%B1o-3a248b176/">Cristian Bodón</a> & <a href="https://www.linkedin.com/in/asiercallejo/">Asier Callejo</a></p>

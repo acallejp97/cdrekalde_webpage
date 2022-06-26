@@ -24,7 +24,7 @@ return [
     'aikido' => 'Aikido',
     'kickboxing' => 'Kick Boxing',
     'pilates' => 'Pilates',
-    'espaldasana' => 'Healthy back',
+    'defensapersonal' => 'Self Defense',
     'redesSociales' => 'Our Social Networks',
     
     'description-home' => "Sports club with a karate tradition. Throughout these years, we have been expanding our activities, always linked to martial arts and body care. At present, we have groups of Children's Karate, Adult Karate, Aikido, Kick Boxing, Self Defense and Pilates, although our spirit of development and improvement makes us strive to find a space for the needs detected by the neighborhood.We have more than 30 years working the values of martial arts and currently we are still the only club in Euskadi to be proclaimed champion of Spain in the modality of combat.",
@@ -33,7 +33,7 @@ return [
     'description-aikido' => 'Martial art in which we work on body to body fighting and weapons. We practice to defeat ourselves instead of cultivating violence or aggressiveness.',
     'description-kickboxing' => 'Combat sport in which we mix the best of some martial arts, such as Boxing, Karate and Muay-Thay. A very complete sport to practice as an amateur or with a view to improve yourself personally.',
     'description-pilates' => 'It is a system of physical and mental training, created from different specialties such as gymnastics, traumatology and yoga. The method helps to maintain body balance and give stability and firmness to the spine, ideal as a therapy in rehabilitation.',
-    'description-espaldasana' => 'It is a low-impact activity specially designed to prevent or reduce back problems thanks to the toning and stretching of the muscles.',
+    'description-defensapersonal' => 'Self-defence is a set of technical-tactical skills aimed at preventing or repelling an aggression, carried out by oneself and for oneself.</br></br>It also receives other names such as self-protection or personal safety, however these concepts have a wider scope, where the preventive component stands out.',
 
     'horarios' => 'Weekly Schedule',
     'lunes' => 'Monday',

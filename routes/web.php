@@ -18,8 +18,9 @@ Route::get('lang/{lang}', function ($lang) {
 })->middleware('web')->name('change_lang');
 
 Route::get('/', "Controller@index")->name('index');
-Route::get('/karate', "Controller@karate")->name('karate');
+Route::get('/karate-infantil', "Controller@karateinfantil")->name('karate-infantil');
+Route::get('/karate-adulto', "Controller@karateadulto")->name('karate-adulto');
 Route::get('/kickboxing', "Controller@kickboxing")->name('kickboxing');
 Route::get('/aikido', "Controller@aikido")->name('aikido');
 Route::get('/pilates', "Controller@pilates")->name('pilates');
-Route::get('/espaldasana', "Controller@espaldasana")->name('espaldasana');
+Route::get('/defensapersonal', "Controller@defensapersonal")->name('defensapersonal');

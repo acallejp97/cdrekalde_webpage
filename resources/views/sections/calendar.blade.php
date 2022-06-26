@@ -120,12 +120,11 @@
         @else
         <td></td>
         @endif
-        @if($titulo == 'aikido' || $titulo=='home')
+        @if($titulo == 'karate' || $titulo=='home')
         <td><div class="event double" style="background-color: {{ $colors["karate-infantil"]}}"><input id="check" type="checkbox" class="checkbox" /><label for="check"></label>18:00–19:30 @lang('lang.karate-infantil')</div></td>
         @else
         <td></td>
         @endif
-        <td></td>
       </tr>
       <tr>
         <td class="headcol"></td>

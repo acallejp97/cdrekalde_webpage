@@ -9,19 +9,9 @@
             @lang('lang.description-'.$titulo.'-infantil')
         @endif
     </p>
-        <div class="row">
-            <div class="col-lg-6">
-    			<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
-    		</div>
-            <div class="col-lg-6">
-    			<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
-    		</div>
-            <div class="col-lg-6">
-    			<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
-    		</div>
-            <div class="col-lg-6">
-    			<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
-    		</div>
-		</div>
 	</div>
 
+
+    		<div class="owl-carousel owl-theme">
+    			<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
+			</div>

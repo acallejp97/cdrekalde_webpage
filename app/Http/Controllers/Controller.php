@@ -17,9 +17,14 @@ class Controller extends BaseController
         return view("index", ['titulo' => 'home']);
     }
 
-    public function karate()
+    public function karateinfantil()
     {
-        return view("index", ['titulo' => 'karate']);
+        return view("index", ['titulo' => 'karate-infantil']);
+    }
+    
+    public function karateadulto()
+    {
+        return view("index", ['titulo' => 'karate-adulto']);
     }
 
     public function aikido()
@@ -37,9 +42,9 @@ class Controller extends BaseController
         return view("index", ['titulo' => 'pilates']);
     }
 
-    public function espaldasana()
+    public function defensapersonal()
     {
-        return view("index", ['titulo' => 'espaldasana']);
+        return view("index", ['titulo' => 'defensapersonal']);
     }
 
 }

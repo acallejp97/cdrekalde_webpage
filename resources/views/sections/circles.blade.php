@@ -1,4 +1,4 @@
-@php ($activities = ['karate', 'aikido', 'kickboxing', 'pilates', 'espaldasana']) @endphp
+@php ($activities = ['karate-infantil','karate-adulto', 'aikido', 'kickboxing', 'pilates', 'defensapersonal']) @endphp
 
 <div id="circle-section">
         @foreach ($activities as $activity)

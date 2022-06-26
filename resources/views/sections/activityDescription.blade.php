@@ -13,5 +13,16 @@
 
 
     		<div class="owl-carousel owl-theme">
-    			<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
+    			<div class="img-wrapper">
+    				<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
+				</div>
+    			<div class="img-wrapper">
+    				<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
+				</div>
+    			<div class="img-wrapper">
+    				<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
+				</div>
+    			<div class="img-wrapper">
+    				<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
+				</div>
 			</div>

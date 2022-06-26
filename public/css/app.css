@@ -16209,14 +16209,9 @@ img {
   position: relative;
 }
 
-#sponsors .col-lg-6 {
-  align-self: center;
-  padding: 20px;
-}
-#sponsors img {
+#sponsors img, #sponsors a {
   margin: auto;
   display: inline-block;
-  max-height: 200px;
 }
 
 #circle-section {
@@ -16300,49 +16295,25 @@ img {
   scroll-margin-top: 80px;
 }
 
+.owl-carousel {
+  margin-bottom: 60px;
+}
+.owl-carousel .owl-stage {
+  display: flex;
+}
 .owl-carousel .owl-item img {
   display: block;
-  width: 17%;
-  float: left;
-  border: 5px solid #fff;
-  border-radius: 20px;
-  margin-left: 54px;
-  margin-right: 35px;
-  margin-top: 15px;
+  width: auto;
+  margin: auto;
+  max-height: 500px;
 }
 
-.testimonial-item.equal-height.style-6 {
-  background-color: #eee;
-  border-radius: 10px;
-  margin: 10px;
+.img-wrapper {
+  width: 100%;
 }
 
-.cell-right {
-  text-align: center;
-  margin-right: 80px;
-  padding-top: 35px;
-  padding-bottom: 20px;
-}
-
-.testimonial-name {
-  font-weight: 600;
-}
-
-.testimonial-content.quote {
-  padding: 17px 55px;
-}
-
-.et_right_sidebar #main-content .container:before {
-  display: none;
-}
-
-#main-content .container {
-  padding-top: 10px;
-}
-
-i.fa.fa-quote-left {
-  padding: 0px 10px;
-  color: #999;
+.owl-carousel.owl-drag .owl-item {
+  display: flex;
 }
 
 @media (max-width: 1275px) {

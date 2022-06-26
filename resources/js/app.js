@@ -1,4 +1,6 @@
 require('./bootstrap');
+require('./jquery.min');
+require('./owl.carousel.min');
 
 var loader = document.querySelector(".loader")
 

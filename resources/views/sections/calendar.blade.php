@@ -55,7 +55,6 @@
         @else
         <td></td>
         @endif
-        
         <td></td>
       </tr>
       <tr>

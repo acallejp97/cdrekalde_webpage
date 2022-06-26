@@ -28,7 +28,7 @@ return [
     'espaldasana' => 'Bizkar Osasuntsua',
     'redesSociales'=> 'Gure Sare Sozialak',
     
-    'description-home' => 'Faltan daukagu hasierako deskripzioa',
+    'description-home' => 'Karateka tradizioko kirol-kluba. Urte hauetan zehar, gure jarduerak zabaltzen joan gara, beti arte martzialekin eta gorputzaren zaintzarekin lotuta. Gaur egun, Haur Karate, Heldu Karate, Aikido, Kick Boxing, Defentsa Pertsonala eta Pilates taldeak ditugu, nahiz eta gure garapen- eta hobekuntza-espirituak auzoak antzematen dituen beharrizanei leku bat bilatzeko borrokarazten gaituen.</br></br>Hogeita hamar urte baino gehiago daramagu borroka-arteen balioak lantzen, eta gaur egun borroka-modalitatean Euskadiko klub-maila bakarra da.',
     'description-karate-adulto' => 'Karate Shotokan, bere konplexutasun osoan landua. Kihon, Kata, Kumite eta Goshin maila guztietarako. Arte honen bidez, zure gaitasunak areagotzen ditugu eta bizi-kalitate hobea lortzeko laguntza ematen dizugu.',
     'description-karate-infantil' => 'Arte martzialaren bidez, txikienen balioak lantzen ditugu. Hobekuntza, iraunkortasuna, diziplina, errespetua eta ahalegina dira Karateak eskaintzen dituen balio ugarietako batzuk.',
     'description-aikido' => 'Arte martziala, borroka buruz buru eta armekin lantzen duguna. Geure burua garaitzeko praktikatzen dugu, indarkeria edo oldarkortasuna landu beharrean.',

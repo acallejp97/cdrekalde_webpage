@@ -1,3 +1,10 @@
+	
+	@php
+	$images = scandir(__DIR__."/../../../public/images/activityDescription/".$titulo);
+	unset($images[0]);
+	unset($images[1]);
+	@endphp
+
     <div id="description" class="text-center mb-3 container-fluid">
     <h1>@lang('lang.'.$titulo)</h1>
     <p>
@@ -11,18 +18,10 @@
     </p>
 	</div>
 
-
-    		<div class="owl-carousel owl-theme">
-    			<div class="img-wrapper">
-    				<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
-				</div>
-    			<div class="img-wrapper">
-    				<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
-				</div>
-    			<div class="img-wrapper">
-    				<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
-				</div>
-    			<div class="img-wrapper">
-    				<img src="{{asset('images/entrada.png')}}" alt="entrada" class="mb-3">
-				</div>
-			</div>
+	<div class="owl-carousel owl-theme">
+		@foreach ($images as $image)
+		<div class="img-wrapper">
+			<img src="{{asset("images/activityDescription/$titulo/$image")}}" alt="entrada" class="mb-3">
+		</div>
+		@endforeach
+	</div>

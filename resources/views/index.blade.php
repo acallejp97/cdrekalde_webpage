@@ -7,15 +7,13 @@
         <meta http-equiv="Pragma" content="no-cache" />
         <meta http-equiv="Expires" content="0" />
 
+        <link rel="shortcut icon" href="{{ asset('images/logos/favicon.ico') }}"  type='image/x-icon'>
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{csrf_token()}}">
         <title>{{ config('app.name') }}</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        <link href="{{ asset('css/css/owl.carousel.min.css') }}" rel="stylesheet">
-		<link href="{{ asset('css/css/owl.theme.default.min.css') }}" rel="stylesheet">
 
 		<link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>

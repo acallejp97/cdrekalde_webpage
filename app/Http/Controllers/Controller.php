@@ -37,10 +37,10 @@ class Controller extends BaseController
         return view("index", ['titulo' => 'kickboxing']);
     }
 
-    public function pilates()
-    {
-        return view("index", ['titulo' => 'pilates']);
-    }
+    // public function pilates()
+    // {
+    //     return view("index", ['titulo' => 'pilates']);
+    // }
 
     public function defensapersonal()
     {

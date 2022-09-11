@@ -35,21 +35,21 @@
     <tbody>
     <tr>
         <td class="headcol"></td>
-        @if($titulo == 'pilates' || $titulo=='home')
+        {{-- @if($titulo == 'pilates' || $titulo=='home')
          <td><div class="event double" style="background-color:{{ $colors["pilates"] }}"><input id="check" type="checkbox" class="checkbox" /><label for="check"></label>10:30–11:30 @lang('lang.pilates')</div></td>
-        @else
+        @else --}}
         <td></td>
-        @endif
+        {{-- @endif --}}
         @if($titulo == 'defensapersonal' || $titulo=='home')
         <td><div class="event double" style="background-color:{{ $colors["defensapersonal"] }}"><input id="check" type="checkbox" class="checkbox" /><label for="check"></label>10:00–11:00 @lang('lang.defensapersonal')</div></td>
         @else
         <td></td>
         @endif
-        @if($titulo == 'pilates' || $titulo=='home')
+        {{-- @if($titulo == 'pilates' || $titulo=='home')
         <td><div class="event double" style="background-color:{{ $colors["pilates"] }}"><input id="check" type="checkbox" class="checkbox" /><label for="check"></label>10:30–11:30 @lang('lang.pilates')</div></td>
-        @else
+        @else --}}
         <td></td>
-        @endif
+        {{-- @endif --}}
         @if($titulo == 'defensapersonal' || $titulo=='home')
         <td><div class="event double" style="background-color:{{ $colors["defensapersonal"] }}"><input id="check" type="checkbox" class="checkbox" /><label for="check"></label>10:00–11:00 @lang('lang.defensapersonal')</div></td>
         @else

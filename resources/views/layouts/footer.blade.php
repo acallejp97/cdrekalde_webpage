@@ -20,7 +20,7 @@
                             <div class="row">
                                 <div class="col">
                                     <i class="fas fa-envelope-open ml-3 "></i>
-                                    <span>info@clubdeportivorekalde.com</span>
+                                    <span>info@clubdeportivorekalde.es</span>
                                 </div>
                             </div>
                         </div>

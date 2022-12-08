@@ -1,5 +1,6 @@
  @php
-     $images = scandir(__DIR__ . '/../../../public/images/activityDescription/' . $titulo);
+     //  $images = scandir(__DIR__ . '/../../../public/images/activityDescription/' . $titulo);
+     $images = scandir(__DIR__ . '/../../../public/images/activityDescription/home');
      unset($images[0]);
      unset($images[1]);
  @endphp
@@ -24,7 +25,8 @@
  <div class="owl-carousel owl-theme">
      @foreach ($images as $image)
          <div class="img-wrapper">
-             <img src="{{ asset("images/activityDescription/$titulo/$image") }}" alt="entrada" class="mb-3">
+             {{-- <img src="{{ asset("images/activityDescription/$titulo/$image") }}" alt="entrada" class="mb-3"> --}}
+             <img src="{{ asset("images/activityDescription/home/$image") }}" alt="entrada" class="mb-3">
          </div>
      @endforeach
  </div>

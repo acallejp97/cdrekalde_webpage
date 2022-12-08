@@ -26,7 +26,7 @@ return [
     'pilates' => 'Pilates',
     'defensapersonal' => 'Self Defense',
     'redesSociales' => 'Our Social Networks',
-    
+
     'description-home' => "Sports club with a karate tradition. Throughout these years, we have been expanding our activities, always linked to martial arts and body care. At present, we have groups of Children's Karate, Adult Karate, Aikido, Kick Boxing, Self Defense and Pilates, although our spirit of development and improvement makes us strive to find a space for the needs detected by the neighborhood.We have more than 30 years working the values of martial arts and currently we are still the only club in Euskadi to be proclaimed champion of Spain in the modality of combat.",
     'description-karate-adulto' => 'Shotokan Karate, worked in all its complexity. Kihon, Kata, Kumite and Goshin for all levels. Through this art, we increase your capabilities and support you to achieve a better quality of life.',
     'description-karate-infantil' => 'Through the martial art, we work on values in children. Overcoming, perseverance, discipline, respect and effort are some of the many values that Karate brings.',

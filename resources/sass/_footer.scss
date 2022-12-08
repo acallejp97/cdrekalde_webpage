@@ -1,5 +1,5 @@
 .sec-footer {
-    background: #38ACCB;
+    background: #38accb;
     color: #fff;
     padding-top: 2.5rem;
     padding-bottom: 1rem;
@@ -82,14 +82,15 @@
 #created-text {
     margin-top: 1rem;
     margin-bottom: 0;
-	font-weight: bold;
-	a, a:focus {
-		color: #bb0b0d;
-	}
+    font-weight: bold;
+    a,
+    a:focus {
+        color: #bb0b0d;
+    }
 }
 
 #heart:hover {
-    animation: fa-beat  1.2s ease-in-out infinite;
+    animation: fa-beat 1.2s ease-in-out infinite;
 }
 
 @keyframes fa-beat {

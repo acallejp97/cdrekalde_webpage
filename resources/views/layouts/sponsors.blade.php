@@ -1,7 +1,7 @@
 <div id="sponsors" class="text-center container-fluid">
         <div class="row">
             <div class="col-lg-12">
-    <h2>Sponsors</h2>
+    <h1>Sponsors</h1>
     </div>
 <div class="owl-carousel owl-theme">
     <a target="_blank" href="https://www.facebook.com/autoescuelakatia/"><img src="{{asset('images/sponsors/katia.png')}}"></a>

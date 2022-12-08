@@ -15785,7 +15785,7 @@ readers do not read off random characters that represent icons */
 }
 
 .calendar {
-  margin: 40px auto;
+  margin: 60px auto;
   max-width: 100%;
   width: 1280px;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -16022,6 +16022,8 @@ a:hover {
 }
 
 #video-background {
+  -moz-filter: blur(3px);
+  filter: blur(3px);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -16114,7 +16116,7 @@ nav {
   background: #ffffff;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px 0 100px;
+  padding: 0 35px 0 35px;
   flex-wrap: wrap;
 }
 nav input[type=checkbox] {
@@ -16209,7 +16211,17 @@ img {
   position: relative;
 }
 
-#sponsors img, #sponsors a {
+h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+  margin-bottom: 60px;
+}
+
+#sponsors img,
+#sponsors a {
   margin: auto;
   display: inline-block;
 }
@@ -16262,7 +16274,7 @@ img {
   scroll-margin-top: 80px;
   flex-direction: column;
   margin: auto;
-  padding: 40px;
+  padding: 60px;
   width: 100%;
   max-width: 1140px;
 }
@@ -16294,6 +16306,10 @@ img {
 #calendar {
   scroll-margin-top: 80px;
 }
+#calendar header h1 {
+  font-size: 2rem;
+  margin: 0px;
+}
 
 .owl-carousel {
   margin-bottom: 60px;
@@ -16319,11 +16335,6 @@ img {
 @media (max-width: 1275px) {
   .collapse.in {
     display: block !important;
-  }
-}
-@media (max-width: 1000px) {
-  nav {
-    padding: 0 40px 0 50px;
   }
 }
 @media (max-width: 920px) {

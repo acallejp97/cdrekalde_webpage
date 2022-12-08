@@ -8,7 +8,6 @@
 @import "~@fortawesome/fontawesome-free/css/all";
 @import "footer";
 @import "calendar";
-
 @import "owl.carousel.min.css";
 @import "owl.theme.default.min.css";
 // INTRO
@@ -23,7 +22,6 @@ a:hover {
     background-color: #ffffff;
     background-image: url(#{$posicionesKarate});
     overflow: hidden;
-
     .logo {
         position: absolute;
         top: 50%;
@@ -40,6 +38,9 @@ a:hover {
 }
 
 #video-background {
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    filter: blur(3px);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -70,7 +71,6 @@ a:hover {
     justify-content: center;
     align-items: center;
     z-index: 4;
-
     img {
         -webkit-animation-duration: 1.5s;
         animation-duration: 1.5s;
@@ -140,9 +140,8 @@ nav {
     background: #ffffff;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px 0 100px;
+    padding: 0 35px 0 35px;
     flex-wrap: wrap;
-
     input[type="checkbox"] {
         display: none;
     }
@@ -237,6 +236,15 @@ img {
     position: relative;
 }
 
+h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.container-fluid {
+    margin-bottom: 60px;
+}
+
 #sponsors {
     img,
     a {
@@ -253,12 +261,10 @@ img {
     flex-direction: row;
     justify-content: center;
     padding: 10px 20px;
-
     .item {
         padding: 5px;
         margin: auto;
     }
-
     h2 {
         font-size: 1.2rem;
         color: #000000;
@@ -279,14 +285,12 @@ img {
     margin: 40px auto;
     overflow: hidden;
     transition: all 0.4s;
-
     img {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-
     &:hover {
         box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.75);
         transition: all 0.4s;
@@ -299,15 +303,13 @@ img {
     scroll-margin-top: 80px;
     flex-direction: column;
     margin: auto;
-    padding: 40px;
+    padding: 60px;
     width: 100%;
     max-width: 1140px;
-
     p {
         font-size: 18px;
         margin-bottom: 30px;
     }
-
     img {
         align-self: center;
     }
@@ -315,7 +317,6 @@ img {
     .col-lg-6 {
         align-self: center;
         padding: 20px;
-
         img {
             margin: auto;
             display: inline-block;
@@ -334,6 +335,12 @@ img {
 
 #calendar {
     scroll-margin-top: 80px;
+    header {
+        h1 {
+            font-size: 2rem;
+            margin: 0px;
+        }
+    }
 }
 
 // SLIDER
@@ -364,12 +371,6 @@ img {
 @media (max-width: 1275px) {
     .collapse.in {
         display: block !important;
-    }
-}
-
-@media (max-width: 1000px) {
-    nav {
-        padding: 0 40px 0 50px;
     }
 }
 

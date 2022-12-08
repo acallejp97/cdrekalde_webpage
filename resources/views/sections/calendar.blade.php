@@ -49,7 +49,7 @@
                             <td>
                                 <div class="event double" style="background-color:{{ $colors['defensapersonal'] }}">
                                     <input id="check" type="checkbox" class="checkbox" /><label
-                                        for="check"></label>10:00–11:00 @lang('lang.defensapersonal')
+                                        for="check"></label>10:00-11:00 @lang('lang.defensapersonal')
                                 </div>
                             </td>
                         @else
@@ -60,7 +60,7 @@
                             <td>
                                 <div class="event double" style="background-color:{{ $colors['defensapersonal'] }}">
                                     <input id="check" type="checkbox" class="checkbox" /><label
-                                        for="check"></label>10:00–11:00 @lang('lang.defensapersonal')
+                                        for="check"></label>10:00-11:00 @lang('lang.defensapersonal')
                                 </div>
                             </td>
                         @else
@@ -99,7 +99,7 @@
                             <td>
                                 <div class="event double" style="background-color:{{ $colors['defensapersonal'] }}">
                                     <input id="check" type="checkbox" class="checkbox" /><label
-                                        for="check"></label>17:00–18:00 @lang('lang.defensapersonal')
+                                        for="check"></label>17:00-18:00 @lang('lang.defensapersonal')
                                 </div>
                             </td>
                         @else
@@ -110,7 +110,7 @@
                             <td>
                                 <div class="event double" style="background-color:{{ $colors['defensapersonal'] }}">
                                     <input id="check" type="checkbox" class="checkbox" /><label
-                                        for="check"></label>17:00–18:00 @lang('lang.defensapersonal')
+                                        for="check"></label>17:00-18:00 @lang('lang.defensapersonal')
                                 </div>
                             </td>
                         @else
@@ -132,7 +132,7 @@
                             <td>
                                 <div class="event double" style="background-color: {{ $colors['karate-infantil'] }}">
                                     <input id="check" type="checkbox" class="checkbox" /><label
-                                        for="check"></label>18:00–19:00 @lang('lang.karate-infantil')
+                                        for="check"></label>18:00-19:00 @lang('lang.karate-infantil')
                                 </div>
                             </td>
                         @else
@@ -142,7 +142,7 @@
                             <td>
                                 <div class="event cuadruple" style="background-color: {{ $colors['aikido'] }}"><input
                                         id="check" type="checkbox" class="checkbox" /><label
-                                        for="check"></label>18:00–20:00 @lang('lang.aikido')</div>
+                                        for="check"></label>18:00-20:00 @lang('lang.aikido')</div>
                             </td>
                         @else
                             <td></td>
@@ -151,7 +151,7 @@
                             <td>
                                 <div class="event double" style="background-color: {{ $colors['karate-infantil'] }}">
                                     <input id="check" type="checkbox" class="checkbox" /><label
-                                        for="check"></label>18:00–19:00 @lang('lang.karate-infantil')
+                                        for="check"></label>18:00-19:00 @lang('lang.karate-infantil')
                                 </div>
                             </td>
                         @else
@@ -161,7 +161,7 @@
                             <td>
                                 <div class="event cuadruple" style="background-color: {{ $colors['aikido'] }}"><input
                                         id="check" type="checkbox" class="checkbox" /><label
-                                        for="check"></label>18:00–20:00 @lang('lang.aikido')</div>
+                                        for="check"></label>18:00-20:00 @lang('lang.aikido')</div>
                             </td>
                         @else
                             <td></td>
@@ -170,7 +170,7 @@
                             <td>
                                 <div class="event double" style="background-color: {{ $colors['karate-infantil'] }}">
                                     <input id="check" type="checkbox" class="checkbox" /><label
-                                        for="check"></label>18:00–19:30 @lang('lang.karate-infantil')
+                                        for="check"></label>18:00-19:30 @lang('lang.karate-infantil')
                                 </div>
                             </td>
                         @else

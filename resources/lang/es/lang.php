@@ -14,7 +14,7 @@ return [
     */
 
     'activities' => 'Actividades',
-    'description' => 'Descripcion',
+    'description' => 'Descripción',
     'schedules' => 'Horarios',
 
     'home' => 'Inicio',
